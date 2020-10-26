@@ -1,0 +1,118 @@
+from voice import voice
+import pyautogui
+import time
+import os
+import subprocess
+from records import record,first_record,second_record,third_record
+# start recording here
+pro=record()
+pyautogui.moveTo(38,186)# vscode
+pyautogui.click()
+voice("ok, today i'm gonna show you how to create an S D K for appwrite server using hack programming language",1)
+first_record(pro)
+pro=record()
+pyautogui.click(30,74,duration=1, tween=pyautogui.easeInOutQuad)# chrome
+pyautogui.hotkey("alt","shift","=")
+pyautogui.click(281,81,duration=1, tween=pyautogui.easeInOutQuad)# url browser
+pyautogui.hotkey("ctrl","a")
+pyautogui.write('https://appwrite.io/docs/installation', interval=0.1)
+pyautogui.press("enter")
+pyautogui.hotkey("alt","shift","-")
+voice("first go to appwrite.io then follow the installation instruction, as i already installed, i will focused on creating S D K for appwrite server using hack programming language",1)
+second_record(pro)
+pro=record()
+voice("First of all, we need to setup the requirement of the hack programming language which is h h v m, because right now im using ubuntu linux im gonna show you how to install h h v m in linux, first go to this page in your browser",1)
+pyautogui.moveTo(30,74,duration=1, tween=pyautogui.easeInOutQuad)# chrome
+pyautogui.click()
+pyautogui.hotkey("alt","shift","=")
+pyautogui.moveTo(281,81,duration=1, tween=pyautogui.easeInOutQuad)# url browser
+pyautogui.click()
+pyautogui.hotkey("ctrl","a")
+pyautogui.write('https://docs.hhvm.com/hhvm/installation/linux', interval=0.1)
+pyautogui.press("enter")
+time.sleep(2)
+pyautogui.hotkey("alt","shift","-")
+third_record(pro)
+pro=record()
+voice("this page will guide you through the installation of h h v m , which is the runtime for our hack programming language to run, now let's go to terminal to install h h v m one by one",1)
+time.sleep(2)
+
+pyautogui.moveTo(21,201,duration=1, tween=pyautogui.easeInOutQuad)# vscode
+pyautogui.click()
+pyautogui.moveTo(1090,459,duration=1, tween=pyautogui.easeInOutQuad)# selector terminal vscode
+pyautogui.click()
+pyautogui.moveTo(1042,492,duration=1, tween=pyautogui.easeInOutQuad)# ganti terminal
+pyautogui.click()
+pyautogui.hotkey("alt","shift","=")
+pyautogui.moveTo(1313,625,duration=1, tween=pyautogui.easeInOutQuad)# terminal vscode
+pyautogui.click()
+pyautogui.write('clear', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('sudo apt-get update', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('sudo apt-get install software-properties-common apt-transport-https -y', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(10)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xB4112585D386EB94', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('sudo add-apt-repository https://dl.hhvm.com/ubuntu', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('sudo apt update', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('sudo apt-get install hhvm -y', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('hhvm --version', interval=0.1)
+pyautogui.press("enter")
+time.sleep(25)
+pyautogui.hotkey("alt","shift","-")
+second_record(pro)
+pro=record()
+voice("if the command h h v m version showing the version of hhvm then you're successfully installing hhvm now let's install composer which is essential tools to make our hack apps work",1)
+pyautogui.moveTo(1090,459,duration=1, tween=pyautogui.easeInOutQuad)# selector terminal vscode
+pyautogui.click()
+pyautogui.moveTo(1042,492,duration=1, tween=pyautogui.easeInOutQuad)# ganti terminal
+pyautogui.click()
+pyautogui.hotkey("alt","shift","=")
+pyautogui.moveTo(1313,625,duration=1, tween=pyautogui.easeInOutQuad)# terminal vscode
+pyautogui.click()
+pyautogui.write('clear', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer -O - -q | php -- --quiet', interval=0.1)
+pyautogui.press("enter")
+time.sleep(10)
+pyautogui.hotkey("ctrl","c")
+pyautogui.write('sudo mv composer.phar /usr/local/bin/composer', interval=0.1)
+pyautogui.press("enter")
+pyautogui.write('1234', interval=0.1)
+pyautogui.press("enter")
+time.sleep(1)
+pyautogui.write('composer --version', interval=0.1)
+pyautogui.press("enter")
+pyautogui.hotkey("alt","shift","-")
+third_record(pro)
+pro=record()
+voice("if you saw the composer version then you're successfully installing the composer package manager now let's create our project",1)
+second_record(pro)
+
+
